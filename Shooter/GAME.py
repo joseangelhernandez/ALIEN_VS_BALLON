@@ -1,7 +1,5 @@
 import pygame, random
 
-
-
 #Global values
 WIDTH = 800
 HEIGHT = 600

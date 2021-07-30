@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>15f0cd9e-8c9c-4c99-a27d-8e662db9ee24</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>Shooter.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>GAME.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Shooter</Name>
+    <Name>ALIENVSBALLONS</Name>
     <RootNamespace>Shooter</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -21,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Shooter.py" />
+    <Compile Include="GAME.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
